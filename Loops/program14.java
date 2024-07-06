@@ -27,7 +27,7 @@ Test Case 3:
 
 
 
- */
+ */ 
 import java.util.Scanner  ; 
 public class program14 {
 
