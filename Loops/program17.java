@@ -23,12 +23,12 @@ public class program17 {
         }
         else{
             return false;
-        }       
+        }         
 
     }
     public static boolean lastDigit(int num){
        
-            int d=num%10;
+            int d=num%10;    
             if(d==7){
                 return true;
             }
