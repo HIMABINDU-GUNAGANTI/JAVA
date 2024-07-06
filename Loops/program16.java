@@ -75,7 +75,7 @@ public class program16 {
             rev=rev*10+d;
            num=num/10;
 
-        }
+        } 
            
         return rev;
     }
