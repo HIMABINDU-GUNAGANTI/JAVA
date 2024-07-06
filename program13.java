@@ -37,7 +37,7 @@ public class program13 {
             System.out.println("Not harmony");
         }
             
-    }
+    }//main method end
         
 }
     
