@@ -22,7 +22,7 @@ public class program19 {
         // while (num1!=0 || num2!=0 || num3!=0) {
         //     int d1=num1%10;
         //     int d2=num2%10;
-        //     int d3=num3%10;  
+        //     int d3=num3%10;    
             
             
 
