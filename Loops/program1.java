@@ -2,23 +2,15 @@ import java.util.Scanner;
 //multiplication table
 
 class program1{
+    //factorial of a number
+    //5!
     public static void main(String[] args) {
-       
-
-        // Scanner s=new Scanner(System.in);
-        // int num=s.nextInt();
-        // int n=num;
-        // System.out.println(n);
-        // System.out.println(num);
-        
-        // for(int i=1;i<=10;i++){
-        //     System.out.println(num+" x "+i+" = "+(num*i));
-        // }
-        
-        // int i=10;
-        // while ( i>=1) {
-        //     System.out.println(num+" x "+i+" = "+(num*i));
-        //     i--;
-        // }
+        Scanner s=new Scanner(System.in);
+        int num=s.nextInt();
+        int fact=1;
+        for (int i = 1; i <=num; i++) {
+            fact=fact*i;
+        }
+        System.out.println(fact);
     }
 }

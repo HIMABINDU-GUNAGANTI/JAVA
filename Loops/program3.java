@@ -1,28 +1,27 @@
 import java.util.Scanner;
-
+//prime or not
 public class program3 {
-// **********
-// **********
-// **********
-// **********
+
 
    public static void main(String[] args) {
     Scanner s=new Scanner(System.in);
        int n=s.nextInt();
-       for(int i=1;i<=n/2+1;i++){
-        for(int j=1;j<=n;j++){
-            if(i+j>=n-1 && j-i<=n/2){
-                System.out.print("*");
-
-            }
-            else{
-                System.out.print(" ");
-
-            }
+       int count=0;
+       for(int i=1;i<=n;i++){
+         if(n%i==0){
+            count++;
         }
-        System.out.println();
-
+       
        }
+       if(count==2){
+        System.out.println(n+" is prime");
+       }
+       else{
+        System.out.println(n+" Not prime");
+       }
+       
+
+
    }
 
 
